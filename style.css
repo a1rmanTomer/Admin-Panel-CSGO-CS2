@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: #a8a8a8;
+  }
+
+#container {
+    height: 100%;
+    width: auto;
+}
+
+#sidebar {
+    background-image: linear-gradient(white, #dfdfdf);
+    height: 100%;
+    width: 15%;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content:space-between;
+    color: #1047df;
+    text-shadow: 0 0 25px #00000098;
+    padding: 10% 0;
+    height: auto;
+    width: 100%;
+}
+
+#logo i {
+    font-size: 4rem;
+    margin-left: 5%;
+}
+
+#logo__name {
+    font-size: 1.5rem;
+    margin-right: 8.5%;
+}
+
+nav {
+    height: 72.5%;
+}
+
+.links {
+    list-style: none;
+    display: grid;
+    margin-left: -10%;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    height: auto;
+    width: 140%;
+    justify-content: center;
+}
+
+.links a {
+    position: relative;
+    color: #3e72ff;
+    text-decoration: none;
+    font-size:1.05rem ;
+}
+
+.links a span {
+    position: fixed;
+    margin-left: 3%;
+}
+
+.links a i {
+    font-size: 2.35rem;
+    position: fixed;
+}
